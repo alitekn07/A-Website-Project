@@ -1,0 +1,318 @@
+/* GENERAL STYLING */
+
+h3 {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #005688;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 14px;
+}
+
+
+/* HOME SECTION */
+
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.navbar {
+    border-bottom: #1886C7 1px solid;
+}
+
+.navbar-brand {
+    color: #1886C7 !important;
+    font-size: 24px;
+}
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, .7) !important;
+}
+
+.nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    transition: color 0.5s ease;
+}
+
+.nav-link:hover {
+    color: #1886C7 !important;
+}
+
+#headerSection {
+    background: url('../images/main.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+#headerSection .overlay {
+    background-color: rgba(0,0,0, .7);
+    
+}
+
+#headerSection .row {
+    height: 100vh;
+}
+
+#headerSection span {
+    color: #1886C7 !important;
+}
+
+.btn btn-outline-info {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+/* FEATURES SECTION */
+
+#features .fab {
+    font-size: 40px !important;
+}
+
+#features .fas {
+    font-size: 40px !important;
+}
+
+
+.a:hover {
+    color: #1886C7;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    
+}
+
+.b:hover {
+    color: #1886C7;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+.c:hover {
+    color: #1886C7;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+
+/* HISTORY SECTION */
+
+
+#MyHistory h2 {
+    border-left: 6px solid #1886C7;
+    padding-left: 30px;
+    
+}
+
+
+#MyHistory .col-md-6 {
+    display: inline;
+    }
+
+#MyHistory .btn-outline-info {
+    position: absolute;
+    bottom: 0;
+}
+
+#MyHistory p {
+    line-height: 24px;
+}
+
+.fa-youtube {
+    font-size: 50px;
+}
+
+/* VIDEO */
+
+#video {
+    background: linear-gradient(
+        rgba(0,0,0, .7),
+        rgba(0,0,0, .7)
+        ),
+        url(../images/video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-podcast {
+    font-size: 40px !important;
+    color: #137AB6;
+
+}
+
+/* CASE STUDY SECTION */
+    
+#caseStudy {
+    background-color: #f4f5f9;
+    line-height: 28px;
+}
+
+
+.caseArea {
+    background-color: #FFFFFF;
+    margin-top: 40px;
+    margin-right: -55px;
+    z-index: 100;
+    padding: 60px;
+    position: relative;
+    min-height: 420px;
+}
+
+
+#caseStudy h3 {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* PORTFOLIO SECTION */
+
+
+#portfolio .col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+#portfolio h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+#portfolio .fa {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+#portfolio p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.imageContainer {
+    position: relative;
+    cursor: pointer;
+}
+
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1886C7;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.imageContainer:hover .imageOverlay {
+    opacity: .3;
+}
+
+.imageText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+
+#testimonials p {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-size: 20px;
+    min-height: 90px;
+}
+
+#testimonials h5 {
+
+color: #1886C7;
+    
+}
+
+
+/* CONTACT SECTION */
+
+
+#contact {
+    background-color: #EEEFF2;
+}
+
+#contact .input-group-text {
+    width: 45px;
+    border-radius: 0;
+    color: #fff;
+    background-color: #1886C7;
+}
+
+
+#contact .form-control, #contact .btn {
+    border-radius: 0;
+    
+}
+
+ /* FUTURE SECTION */
+
+#main-footer .lead, .container-fluid {
+    background-color: #EEEFF2;
+}
+
+
+
+@media screen and ( max-width:1200px ) {
+    .display-4 {
+        font-size: 50px;
+    }
+}
+
+@media screen and ( max-width:992px ) {
+    .display-4 {
+        font-size: 40px;
+    }
+}
+
+@media screen and ( max-width:768px ) {
+    .display-4 {
+        font-size: 30px;
+    }
+    
+    .caseImage {
+        margin-left: 0;
+        text-align: center;
+    }
+    .caseArea {
+        margin-right: 0;
+    }
+}
+
+@media screen and ( max-width:576px ) {
+    
+}
+
+
+
+
+
+
+
+
