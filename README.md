@@ -26,7 +26,7 @@
 
 <h1>About</h1>
 
-<p align="justify"> This project, which I prepared in the 1st year of university, was a Responsive website. I designed a simple website inspired by photographers' blogs. In this work, I used "Bootstrap, JQuery, CSS and JavaScript". I'm leaving a video below for your superficial review. By the way, the photos on the website are completely mine, as much as I love coding, I also love taking photos :)</p>
+<p align="justify"> This project, which I prepared in the 1st year of university, was a Responsive website. I designed a simple website inspired by photographers' blogs. In this work, I used "Bootstrap, JQuery, CSS and JavaScript". I'm leaving a video below for your superficial review. By the way, the photos on the website are completely mine, as much as I love coding, I also love taking photos :) You can watch the video by clicking the image below.</p>
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=pU64hhfefyE">
