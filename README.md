@@ -1,5 +1,5 @@
   <p align="center">
-  <a href="https://github.com/alitekn07/A-Website-Project/"><img src="https://raw.githubusercontent.com/alitekn07/A-Website-Project/main/images/monitor.jpg" />
+  <a href="https://github.com/alitekn07/A-Website-Project/"><img src="https://raw.githubusercontent.com/alitekn07/A-Website-Project/main/images/monitor.png" />
 </p>
 
 <p align="center">        
